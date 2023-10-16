@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'Reforma Grotesk Demi'; 
+	src: local('Reforma Grotesk Demi'), local('Reforma Grotesk Demi'),
+		url(/assets/fonts/ReformaGroteskDemi.woff); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+html {
+    scroll-behavior: smooth;
+}
